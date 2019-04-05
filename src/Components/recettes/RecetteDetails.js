@@ -36,6 +36,9 @@ const RecetteDetails = (props) => {
                         }) }
                     </div>
                     <div>
+                        <span> Dificulté: {recette.dificulte}</span>
+                    </div>
+                    <div>
                         <img src={NombrePersonnesIcon} className='iconDetail' alt='icon fav' />
                         <span>{recette.nombrePersonnes} personnes</span>
                     </div>
