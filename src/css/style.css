@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.headerLogo{
+    background: #FBF3C2;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+}
+#logo{
+    height: 12vh;
+}
+
+.sidebar{
+    margin-top: 12vh;
+    height: 88vh;
+    background: #E91E63;
+    position: fixed;
+}
+.sidebar img{
+    padding: 1em;
+}
+
+.content{
+    margin-top: 12vh;
+    margin-left: 5%;
+}
+
+/* Design RecettesList*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* Design RecetteItem  */
+.RecetteItem{
+    width: 20%;
+    margin: 1em 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.RecetteItem img{
+    width: 100%;
+
+}
+.RecetteItem .item-nom{
+    background:#FBF3C2;
+    padding: .5em;
+    color: #E91E63;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}

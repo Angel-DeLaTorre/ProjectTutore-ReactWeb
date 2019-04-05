@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: center;
+}
+.App > * {
+  flex: 1 100%;
+}
+
+/* Design Navbar */
+
+.headerLogo{
+  background: #FBF3C2;
+  width: 100%;
+  height: 12vh;
+  position: fixed;
+}
+#logo{
+  height: 12vh;
+}
+
+.sidebar{
+  margin-top: 12vh;
+  height: 88vh;
+  background: #E91E63;
+  position: fixed;
+}
+.sidebar img{
+  padding: 1em;
+}
+
+/* Design Content */
+
+.content{
+  margin-top: 12vh;
+  margin-left: 5%;
+}
+
+/* Design RecettesList*/
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* Design RecetteItem  */
+.LinkRecette{
+  width: 20%;
+  margin: 1em 1%;
+}
+
+.RecetteItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RecetteItem img{
+  width: 100%;
+}
+.RecetteItem .item-nom{
+  background:#FBF3C2;
+  padding: .5em;
+  color: #E91E63;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.btnDelete{
+  width: 50%;
+  display: inline-block;
+  background: #FBF3C2;
+  padding: .5em;
+  cursor: pointer;
+}
+
+
+/* Design RecetteDetails */
+.Recette{
+  width: 95%;
+}
+.Details{
+  margin-top: 5vh;
+}
+.image-cake{
+  width: 100%;
+}
+.nomRecette{
+  font-size: 2em;
+  color: #E91E63;
+}
+.tags{
+  color: #E91E63;
+  padding: 0 .5em;
+}
+.iconDetail{
+  width: 30%;
+}
+.cuissonIcon{
+  padding: 1em;
+}
+
+.Descriptions{
+  text-align: left;
+}
+
+.section{
+  text-decoration: none;
+  list-style: none;
+  font-size: 2em;
+  color:#E91E63;
+  padding: 1em 2em;
+  width: 100%;
+}
+.textSection{
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/* Design CreateRecette */
+.formulaire{
+  text-align: left;
+}
+.iconAddTag{
+  background: #E91E63;
+  padding: .5em;
+  width: 80%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.iconAddTag:hover{
+  background: #C2185B;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  background: #E91E63;
+  color: #fff;
+  height: 2.5em;
+}
+.btn-file:hover{
+  background: #C2185B;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: #E91E63;
+  cursor: inherit;
+  display: block;
+}
+.delete-tags{
+  background: #f44336;
+  font-size: .8em;
+  padding: 0 .5em;
+  margin-bottom: .5em;
+  margin-right: 1em;
+  border-radius: 50%;
+  color: #ffebee;
+  cursor: pointer;
+}
