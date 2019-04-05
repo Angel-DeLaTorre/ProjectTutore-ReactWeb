@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ## Francais
-=======
-## Français
->>>>>>> f148facfd5cb9711ead8e24686c3b16cb70409e4
 
 Ce projet a été démarré avec Create React App.
 
@@ -34,10 +30,7 @@ Votre application est prête à être déployée!
 Voir la section sur le déploiement pour plus d'informations.
 
 ## `npm run eject`
-<<<<<<< HEAD
 
-=======
->>>>>>> f148facfd5cb9711ead8e24686c3b16cb70409e4
 **Remarque: il s'agit d'une opération à sens unique. Une fois que vous avez  `eject`, vous ne pouvez plus revenir en arrière!**
 
 Si vous n'êtes pas satisfait du choix de l'outil de construction et de la configuration, vous pouvez l'éjecter à tout moment. Cette commande supprimera la dépendance de construction unique de votre projet.
